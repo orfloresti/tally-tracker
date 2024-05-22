@@ -1,4 +1,4 @@
-# counter
+# Click Guardian
 
 A new Flutter project.
 
