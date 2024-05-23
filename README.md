@@ -1,16 +1,10 @@
-# counter
+# Tally Tracker
 
-A new Flutter project.
+Tally Tracker is a sleek and user-friendly counter app designed with Flutter and Material Design 3. Perfect for tracking anything you need, Tally Tracker offers a single, highly responsive counter for your convenience. Whether you're counting attendees at an event, tallying daily steps, or keeping track of inventory, Tally Tracker makes it simple and efficient.
 
-## Getting Started
+**Features:**
+- **Elegant Design:** Built with Flutter and Material Design 3, Tally Tracker provides a modern and intuitive user experience.
+- **Single Counter:** Focus on what matters with a streamlined, single counter interface.
+- **Ease of Use:** Simple tap to increment or reset your count, making it accessible for all users.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download Tally Tracker today and start counting with ease!
