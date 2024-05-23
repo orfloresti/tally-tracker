@@ -14,7 +14,7 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Click Guardian'),
+          title: const Text('Tally Tracker'),
           actions: [
             IconButton(
               icon: const Icon(Icons.refresh_rounded),
@@ -45,22 +45,22 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             CustomButton(
+              icon: Icons.plus_one,
+              onPressed: () {
+                setState(() {
+                  clickCounter++;
+                });
+              },
+            ),
+            const SizedBox(
+              height: 20,
+            ),            
+            CustomButton(
               icon: Icons.exposure_minus_1_outlined,
               onPressed: () {
                 setState(() {
                   if(clickCounter == 0) return;
                   clickCounter--;
-                });
-              },
-            ),
-            const SizedBox(
-              height: 10,
-            ),
-            CustomButton(
-              icon: Icons.plus_one,
-              onPressed: () {
-                setState(() {
-                  clickCounter++;
                 });
               },
             ),
