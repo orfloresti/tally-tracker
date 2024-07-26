@@ -8,3 +8,7 @@ Tally Tracker is a sleek and user-friendly counter app designed with Flutter and
 - **Ease of Use:** Simple tap to increment or reset your count, making it accessible for all users.
 
 Download Tally Tracker today and start counting with ease!
+
+### Build app 
+
+```flutter build appbundle```
