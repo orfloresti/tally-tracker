@@ -1,4 +1,4 @@
-package com.ajedora.com
+package com.ajedora.tallytracker
 
 import io.flutter.embedding.android.FlutterActivity
 
